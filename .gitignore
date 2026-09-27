@@ -1,0 +1,10 @@
+.DS_Store
+template/node_modules
+template/.venv
+template/build/
+template/out/
+template/audio/
+template/src/data/timeline.json
+template/src/data/glyphs.json
+template/src/data/mosaic.json
+template/public/ending.jpg

@@ -1,0 +1,9 @@
+node_modules/
+build/
+out/
+.venv/
+audio/
+src/data/timeline.json
+src/data/glyphs.json
+src/data/mosaic.json
+public/ending.jpg

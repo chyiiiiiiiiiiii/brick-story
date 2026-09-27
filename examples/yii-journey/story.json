@@ -1,0 +1,176 @@
+{
+  "title": "一步一步 — Yii 的路",
+  "lang": "zh",
+  "subtitles": "zh+en",
+  "voice": {
+    "name": "zh-TW-YunJheNeural",
+    "rate": "+3%"
+  },
+  "hero": {
+    "name": "Yii",
+    "hair": "#161616",
+    "skin": "#f2c79a",
+    "top": "#e9dcc2",
+    "pants": "#3a3f4a",
+    "glasses": true,
+    "print": "sweater",
+    "hairStyle": "short"
+  },
+  "sidekick": {
+    "name": "James · AI",
+    "voice": "say:Rocko (中文（台灣）)"
+  },
+  "climax": "gde",
+  "ending": {
+    "name": "Yii Chen",
+    "handle": "@flutterluvr.yii"
+  },
+  "scenes": [
+    {
+      "id": "hello",
+      "tag": "HELLO",
+      "title": "我是 Yii",
+      "title_en": "I'm Yii",
+      "say": "嗨，我是逸。八年來，我用 Flutter，把一塊一塊的積木，疊成產品。",
+      "show": "嗨，我是 Yii。\n八年來，我用 Flutter，\n把一塊一塊的積木，疊成產品。",
+      "show_en": "Hi, I'm Yii.\nFor eight years, I've used Flutter\nto stack bricks, one by one, into products.",
+      "lead": 2.6,
+      "tail": 0.8
+    },
+    {
+      "id": "student",
+      "tag": "學生時期",
+      "title": "第一課",
+      "title_en": "Lesson One",
+      "say": "學生時期，我和學弟一起接案，做 APP。第一課：做得出來，不代表有人用。",
+      "show": "學生時期，我和學弟一起接案做 App。\n第一課：\n做得出來，不代表有人用。",
+      "show_en": "As a student, I freelanced on apps with a classmate.\nLesson one:\nbuilding it doesn't mean anyone will use it.",
+      "lead": 0.9,
+      "tail": 0.6
+    },
+    {
+      "id": "beacon",
+      "tag": "2018 – 2021",
+      "title": "台中・藍牙下車鈴",
+      "title_en": "A Bluetooth Bus Bell",
+      "say": "在台中，我做藍牙公車下車鈴，還拿到經濟部 S.B.I.R. 計畫。",
+      "show": "在台中，我做藍牙公車下車鈴，\n還拿到經濟部 SBIR 計畫。",
+      "show_en": "In Taichung, I built a Bluetooth bus-stop bell\nand won a government SBIR grant.",
+      "lead": 0.9,
+      "tail": 0.7
+    },
+    {
+      "id": "share",
+      "tag": "2022",
+      "title": "開始分享",
+      "title_en": "Start Sharing",
+      "say": "2022 年，我開始在 IG 分享、寫技術文章，也立下目標：成為 Google Developer Expert。",
+      "show": "2022 年，\n我開始在 IG 分享、寫技術文章，\n也立下目標：\n成為 Google Developer Expert。",
+      "show_en": "In 2022,\nI started sharing on IG and writing tech articles,\nand set myself a goal:\nbecome a Google Developer Expert.",
+      "lead": 0.9,
+      "tail": 0.7
+    },
+    {
+      "id": "meetup",
+      "tag": "COMMUNITY",
+      "title": "Flutter Taipei",
+      "say": "沒人辦社群？那就我來。Flutter Taipei 長到五千人，辦了三十多場小聚。",
+      "show": "沒人辦社群？那就我來。\nFlutter Taipei 長到 5,000 人，\n辦了 30 多場小聚。",
+      "show_en": "No one running a community? Then I'd do it.\nFlutter Taipei grew to 5,000 members\nand 30+ meetups.",
+      "lead": 0.9,
+      "tail": 0.8,
+      "counter": [
+        {
+          "to": 5000,
+          "fmt": "{n}+ MEMBERS"
+        },
+        {
+          "to": 30,
+          "fmt": "{n}+ MEETUPS"
+        }
+      ]
+    },
+    {
+      "id": "stage",
+      "tag": "2023 – 2025",
+      "title": "主辦・演講",
+      "title_en": "Organize & Speak",
+      "say": "還主辦 Flutter Formosa，在首爾合辦 Flutter Alliance，一路從台北，講到上海、可倫坡、首爾。",
+      "show": "還主辦 Flutter Formosa，\n在首爾合辦 Flutter Alliance，\n一路從台北，講到上海、可倫坡、首爾。",
+      "show_en": "I organized Flutter Formosa,\nco-organized Flutter Alliance in Seoul,\nand spoke from Taipei to Shanghai, Colombo and Seoul.",
+      "lead": 0.9,
+      "tail": 0.8,
+      "rate": "+0%"
+    },
+    {
+      "id": "book",
+      "tag": "2024",
+      "title": "寫書・得獎",
+      "title_en": "A Book & an Award",
+      "say": "我跟朵拉拉，合寫了《Flutter 勇者之書》，也一起拿下 Global Gamers Challenge 最佳整合獎。",
+      "show": "我跟 Dorara 合寫《Flutter 勇者之書》，\n也一起拿下\nGlobal Gamers Challenge\n最佳整合獎。",
+      "show_en": "Dorara and I co-wrote the book \"Flutter Brave\",\nand together we won\nthe Global Gamers Challenge\nBest Integration award.",
+      "lead": 0.9,
+      "tail": 0.9,
+      "rate": "+0%"
+    },
+    {
+      "id": "products",
+      "tag": "PRODUCTS",
+      "title": "打造產品",
+      "title_en": "Building Products",
+      "say": "把 HerFIT 做到破萬訂閱；AI 陪伴 APP，兩個月上線；和團隊打造 Monit，首月就獲利。",
+      "show": "把 HerFIT 做到破萬訂閱；\nAI 陪伴 App，兩個月上線；\n和團隊打造 Moniit，首月就獲利。",
+      "show_en": "Took HerFIT past 10K subscribers;\nshipped an AI companion app in two months;\nbuilt Moniit with my team, profitable in month one.",
+      "lead": 0.9,
+      "tail": 0.9,
+      "counter": [
+        {
+          "to": 310,
+          "fmt": "{n}K+ USERS SERVED"
+        }
+      ]
+    },
+    {
+      "id": "gde",
+      "tag": "2026.03",
+      "title": "Google Developer Expert",
+      "say": "2026 年 3 月，我終於成為，Google Developer Expert。",
+      "show": "2026 年 3 月，\n我終於成為\nGoogle Developer Expert。",
+      "show_en": "In March 2026,\nI finally became\na Google Developer Expert.",
+      "lead": 1.0,
+      "tail": 2.8,
+      "rate": "+2%",
+      "badge": {
+        "title": "GOOGLE DEVELOPER EXPERT",
+        "sub": "Flutter & Dart"
+      }
+    },
+    {
+      "id": "ai",
+      "tag": "NOW",
+      "title": "AI-native",
+      "say": "現在，我和 A.I. 夥伴 James，用 A.I. native 的方式造產品。「一步」，就是其中一步。",
+      "show": "現在，我和 AI 夥伴 James，\n用 AI-native 的方式造產品。\nyiibu（一步），就是其中一步。",
+      "show_en": "Now my AI partner James and I\nbuild products the AI-native way.\nyiibu (\"one step\") is one of those steps.",
+      "lead": 0.9,
+      "tail": 0.6,
+      "aside": {
+        "say": "下一步，要做什麼？",
+        "show": "下一步，要做什麼？",
+        "show_en": "What's the next step?"
+      }
+    },
+    {
+      "id": "outro",
+      "tag": "NEXT",
+      "title": "一步一步",
+      "title_en": "One Step at a Time",
+      "say": "Title 會過期，習慣不會。這條路是場馬拉松。我們，一步一步走。",
+      "show": "Title 會過期，習慣不會。\n這條路是場馬拉松。\n我們，一步一步走。",
+      "show_en": "Titles expire. Habits don't.\nThis road is a marathon.\nWe walk it one step at a time.",
+      "lead": 0.8,
+      "tail": 0.8
+    }
+  ]
+}

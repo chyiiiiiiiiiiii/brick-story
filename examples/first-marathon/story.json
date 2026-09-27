@@ -1,0 +1,72 @@
+{
+  "title": "我的第一場全馬",
+  "lang": "zh",
+  "subtitles": "zh+en",
+  "voice": { "name": "zh-TW-YunJheNeural", "rate": "+2%" },
+  "hero": { "name": "Alex", "hair": "#1b1b1b", "skin": "#f1c9a0", "top": "#fe8a18", "pants": "#2a2f3a", "glasses": false, "print": "tee", "hairStyle": "short" },
+  "climax": "race",
+  "ending": { "name": "Alex", "handle": "@alex.runs" },
+  "scenes": [
+    {
+      "id": "hello",
+      "tag": "HELLO",
+      "title": "我的第一場全馬",
+      "title_en": "My First Marathon",
+      "show": "嗨，我是 Alex。\n從跑不完三公里，\n到跑完一場全馬。",
+      "show_en": "Hi, I'm Alex.\nFrom not finishing 3 km\nto finishing a full marathon."
+    },
+    {
+      "id": "start",
+      "tag": "WEEK 1",
+      "title": "三公里的牆",
+      "title_en": "The 3 km Wall",
+      "show": "一開始，我連三公里都跑不完。\n跑沒多久，\n就停下來大口喘氣。",
+      "show_en": "At first, I couldn't even finish 3 km.\nA few minutes in,\nI'd stop, gasping for air."
+    },
+    {
+      "id": "club",
+      "tag": "RUN CLUB",
+      "title": "加入跑團",
+      "title_en": "Joining a Run Club",
+      "show": "後來，我加入了跑團。\n一個人跑不動，\n一群人就跑得下去。",
+      "show_en": "Then I joined a running club.\nAlone, I'd give up;\ntogether, I kept going."
+    },
+    {
+      "id": "train",
+      "tag": "EVERY WEEK",
+      "title": "每週練跑",
+      "title_en": "Training Every Week",
+      "show": "每週固定練跑，\n五公里、十公里、二十公里，\n距離一週一週拉長。",
+      "show_en": "I trained every single week:\n5 km, 10 km, 20 km,\na little further each week."
+    },
+    {
+      "id": "injury",
+      "tag": "MONTH OFF",
+      "title": "受傷，休息一個月",
+      "title_en": "Injured: A Month Off",
+      "show": "練到一半，我受傷了。\n整整一個月，\n只能看著跑鞋休息。",
+      "show_en": "Halfway through training, I got hurt.\nFor a whole month,\nI could only rest and stare at my shoes.",
+      "counter": [{ "to": 30, "fmt": "{n} DAYS OFF" }],
+      "sky": ["#aab7c6", "#e9eef3"]
+    },
+    {
+      "id": "race",
+      "tag": "42.195 KM",
+      "title": "台北馬拉松",
+      "title_en": "Taipei Marathon",
+      "show": "終於，來到台北馬拉松。\n4 小時 12 分後，\n我衝過了終點線！",
+      "say": "終於，來到台北馬拉松。四小時十二分後，我衝過了終點線！",
+      "show_en": "Finally, the Taipei Marathon.\n4 hours 12 minutes later,\nI crossed the finish line!",
+      "badge": { "title": "MARATHON FINISHER", "sub": "Taipei · 4:12" },
+      "sky": ["#ffc46b", "#fff1d6"]
+    },
+    {
+      "id": "next",
+      "tag": "NEXT",
+      "title": "下一條起跑線",
+      "title_en": "The Next Start Line",
+      "show": "從三公里，到四十二公里，\n原來只要一步一步跑。\n下一場，起跑線見！",
+      "show_en": "From 3 km to 42 km,\nit was just one step at a time.\nSee you at the next start line!"
+    }
+  ]
+}

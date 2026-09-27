@@ -1,0 +1,55 @@
+{
+  "title": "我學手沖咖啡的一年",
+  "lang": "zh",
+  "subtitles": "zh+en",
+  "voice": { "name": "zh-TW-HsiaoChenNeural", "rate": "+2%" },
+  "hero": { "name": "Mia", "hair": "#3b2a20", "skin": "#f1c9a0", "top": "#b8573a", "pants": "#2f3b4c", "glasses": false, "print": "sweater", "hairStyle": "long" },
+  "climax": "cafe",
+  "ending": { "name": "Mia", "handle": "@mia.brews" },
+  "scenes": [
+    {
+      "id": "hello",
+      "tag": "DAY 1",
+      "title": "從一包豆子開始",
+      "title_en": "It Started with a Bag of Beans",
+      "show": "這是我學手沖咖啡的一年。\n從一包豆子，\n到一杯好咖啡。",
+      "show_en": "This is my year of learning pour-over coffee.\nFrom one bag of beans\nto one good cup."
+    },
+    {
+      "id": "beans",
+      "tag": "MONTH 1 – 3",
+      "title": "認識咖啡豆",
+      "title_en": "Know Your Beans",
+      "show": "我從認識豆子開始：\n產地、處理法、烘焙度，\n一袋一袋試。",
+      "show_en": "I started with the beans:\norigin, process, roast,\none bag at a time.",
+      "counter": [{ "to": 24, "fmt": "{n} BAGS TRIED" }]
+    },
+    {
+      "id": "pour",
+      "tag": "MONTH 4 – 9",
+      "title": "每天練手沖",
+      "title_en": "Practice Every Day",
+      "say": "接著練手沖：水溫九十二度，粉水比一比十五，一天兩杯。",
+      "show": "接著練手沖：\n水溫 92°C，粉水比 1:15，\n一天兩杯。",
+      "show_en": "Then I practised the pour:\n92°C water, a 1:15 ratio,\ntwo cups a day.",
+      "counter": [{ "to": 500, "fmt": "{n} CUPS BREWED" }]
+    },
+    {
+      "id": "cafe",
+      "tag": "MONTH 12",
+      "title": "第一杯被點的咖啡",
+      "title_en": "My First Real Order",
+      "show": "一年後，在朋友的咖啡店，\n我煮出第一杯，\n被客人點單的咖啡。",
+      "show_en": "A year later, at a friend's café,\nI brewed my first cup\nthat a customer actually ordered.",
+      "badge": { "title": "FIRST ORDER", "sub": "Barista for a day" }
+    },
+    {
+      "id": "finale",
+      "tag": "NEXT",
+      "title": "下一步：拉花",
+      "title_en": "Next: Latte Art",
+      "show": "每天一杯，慢慢來。\n下一年，\n我想學拉花。",
+      "show_en": "One cup a day, no rush.\nNext year,\nI want to learn latte art."
+    }
+  ]
+}
